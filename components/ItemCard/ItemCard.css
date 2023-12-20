@@ -1,0 +1,38 @@
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.card {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 30px;
+  width: 350px;
+}
+
+.cardTitle {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cardLabel {
+  font-weight: bold;
+  color: #333;
+}
+
+.cardDescription {
+  font-size: 14px;
+}
+
+.cardImage {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
